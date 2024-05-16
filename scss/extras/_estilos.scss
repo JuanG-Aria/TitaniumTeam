@@ -3,145 +3,9 @@ html, body{
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     background-image: url(../img/fondo.jpg);
     background-size: cover;
-}
-header{
-    display: flex;
-    background-color: rgb(15, 15, 15);
-    margin: 0rem 1rem;
-    box-shadow: 1rem 1rem 5rem rgba(26, 210, 243, 0.459);
-    border-radius: 15px;
-    color: rgb(207, 194, 194);
-    img{
-        width: 100%;
-        height: 100%;
-    }
-    ul{
-        list-style: none;
-    }
-    .logo{
-        flex-basis: 25%;
-        display: flex;
-        justify-content: center;
-        margin: 1rem;
-        img{
-            width: 50%;
-        }
-    }
-    .title{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-basis: 50%;
-        font-family: "Tomorrow", sans-serif;
-        font-size: 120%;
-        h1{
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-    }
-    .baner{
-        display: flex;
-        flex-basis: 25%;
-        ul{
-            padding: 0;
-            margin: 0;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: space-evenly;
-            position: relative;
-            bottom: 1rem;
-            font-family: "Tomorrow", sans-serif;
-            li{
-                a{
-                    text-decoration: none;
-                }
-            }
-        }
-    }
-    .title-somos{
-        display: grid;
-        justify-content: center;
-        align-items: center;
-        flex-basis: 40%;
-        font-family: "Tomorrow", sans-serif;
-        font-size: 120%;
-        h1{
-            position: relative;
-            top: 2rem;
-        }
-        h2{
-            display: flex;
-            justify-content: center;
-            font-family: "Tomorrow", sans-serif;
-        }
-    }
-}
-
-main{
-    .contenedor-principal{
-        margin: 0 2rem;
-        .title{
-            margin: 1rem 0;
-            display: flex;
-            justify-content: center;
-        }
-        h2{
-            color: whitesmoke;
-            font-family: "Tomorrow", sans-serif;
-            font-weight: 700;
-            font-size: xx-large;
-        }
-        h3{
-            color: rgb(185, 180, 180);
-            font-family: "Tomorrow", sans-serif;
-            font-weight: 500;
-            font-size: x-large;
-        }
-        div{
-            p{
-                color: whitesmoke;
-            }
-        }
-        p{
-            color: whitesmoke;
-        }
-        .staff{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            img{
-                border-radius: 1rem;
-            }
-        }
-        .items{
-            display: flex;
-            justify-content: center;
-        }
-        .items-des{
-            margin: 0 15rem;
-        }
-        .carousel{
-            display: flex;
-            justify-content: center;
-            h3{
-                display: flex;
-                justify-content: center;
-            }
-            .carousel-inner{
-                width: 30%;
-                height: 30%;
-            }
-        }
-    }
 }
 footer{
     margin: 0 2rem;
@@ -167,3 +31,284 @@ footer{
     }
     
 }
+
+@media screen and (min-width: 1050px) {
+    header{
+        display: flex;
+        background-color: rgb(15, 15, 15);
+        margin: 0rem 1rem;
+        box-shadow: 1rem 1rem 5rem rgba(26, 210, 243, 0.459);
+        border-radius: 15px;
+        color: rgb(207, 194, 194);
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        ul{
+            list-style: none;
+        }
+        .logo{
+            flex-basis: 25%;
+            display: flex;
+            justify-content: center;
+            margin: 1rem;
+            img{
+                width: 50%;
+            }
+        }
+        .title{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-basis: 50%;
+            font-family: "Tomorrow", sans-serif;
+            font-size: 120%;
+            h1{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .baner{
+            display: flex;
+            flex-basis: 25%;
+            ul{
+                padding: 0;
+                margin: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                position: relative;
+                bottom: 1rem;
+                font-family: "Tomorrow", sans-serif;
+                li{
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .title-somos{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            flex-basis: 40%;
+            font-family: "Tomorrow", sans-serif;
+            font-size: 120%;
+            h1{
+                position: relative;
+                top: 2rem;
+            }
+            h2{
+                display: flex;
+                justify-content: center;
+                font-family: "Tomorrow", sans-serif;
+            }
+        }
+    }
+    main{
+        .contenedor-principal{
+            margin: 0 2rem;
+            .title{
+                margin: 1rem 0;
+                display: flex;
+                justify-content: center;
+            }
+            h2{
+                color: whitesmoke;
+                font-family: "Tomorrow", sans-serif;
+                font-weight: 700;
+                font-size: xx-large;
+            }
+            h3{
+                color: rgb(185, 180, 180);
+                font-family: "Tomorrow", sans-serif;
+                font-weight: 500;
+                font-size: x-large;
+            }
+            div{
+                p{
+                    color: whitesmoke;
+                }
+            }
+            p{
+                color: whitesmoke;
+            }
+            .staff{
+                display: grid;
+                justify-content: center;
+                grid-template-columns: 1, 1fr;
+                column-gap: 1rem;
+                row-gap: 1rem;
+                img{
+                    border-radius: 1rem;
+                    object-fit: cover;
+                }
+            }
+            .items{
+                display: flex;
+                justify-content: center;
+            }
+            .items-des{
+                margin: 0 15rem;
+            }
+            .carousel{
+                display: flex;
+                justify-content: center;
+                h3{
+                    display: flex;
+                    justify-content: center;
+                }
+                .carousel-inner{
+                    width: 45%;
+                    height: 45%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 1049px) {
+    header{
+        display: flex;
+        background-color: rgb(15, 15, 15);
+        margin: 0rem 1rem;
+        box-shadow: 1rem 1rem 5rem rgba(26, 210, 243, 0.459);
+        border-radius: 15px;
+        color: rgb(207, 194, 194);
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        ul{
+            list-style: none;
+        }
+        .logo{
+            flex-basis: 25%;
+            display: flex;
+            justify-content: center;
+            margin: 1rem;
+            img{
+                width: 50%;
+            }
+        }
+        .title{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-basis: 50%;
+            font-family: "Tomorrow", sans-serif;
+            font-size: 120%;
+            h1{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+        .baner{
+            display: flex;
+            flex-basis: 25%;
+            ul{
+                padding: 0;
+                margin: 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-evenly;
+                position: relative;
+                bottom: 1rem;
+                font-family: "Tomorrow", sans-serif;
+                li{
+                    a{
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .title-somos{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            flex-basis: 40%;
+            font-family: "Tomorrow", sans-serif;
+            font-size: 120%;
+            h1{
+                position: relative;
+                top: 2rem;
+            }
+            h2{
+                display: flex;
+                justify-content: center;
+                font-family: "Tomorrow", sans-serif;
+            }
+        }
+    }
+    main{
+        .contenedor-principal{
+            margin: 0 2rem;
+            .title{
+                margin: 1rem 0;
+                display: flex;
+                justify-content: center;
+            }
+            h2{
+                color: whitesmoke;
+                font-family: "Tomorrow", sans-serif;
+                font-weight: 700;
+                font-size: xx-large;
+            }
+            h3{
+                color: rgb(185, 180, 180);
+                font-family: "Tomorrow", sans-serif;
+                font-weight: 500;
+                font-size: x-large;
+            }
+            div{
+                p{
+                    color: whitesmoke;
+                }
+            }
+            p{
+                color: whitesmoke;
+            }
+            .staff{
+                display: grid;
+                grid-template-columns: 1fr;
+                justify-content: center;
+                img{
+                    width: 100%;
+                    border-radius: 1rem;
+                    object-fit: cover;
+                }
+            }
+            .items, .item.des{
+                display: flex;
+                justify-content: center;
+            }
+            .carousel{
+                display: flex;
+                justify-content: center;
+                h3{
+                    display: flex;
+                    justify-content: center;
+                }
+                .carousel-inner{
+                    width: 60%;
+                    height: 60%;
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
+
+
+
+

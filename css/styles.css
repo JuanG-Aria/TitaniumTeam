@@ -1,0 +1,166 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/fondo.jpg);
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  background-color: rgb(15, 15, 15);
+  margin: 0rem 1rem;
+  box-shadow: 1rem 1rem 5rem rgba(26, 210, 243, 0.459);
+  border-radius: 15px;
+  color: rgb(207, 194, 194);
+}
+header img {
+  width: 100%;
+  height: 100%;
+}
+header ul {
+  list-style: none;
+}
+header .logo {
+  flex-basis: 25%;
+  display: flex;
+  justify-content: center;
+  margin: 1rem;
+}
+header .logo img {
+  width: 50%;
+}
+header .title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+  font-family: "Tomorrow", sans-serif;
+  font-size: 120%;
+}
+header .title h1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .baner {
+  display: flex;
+  flex-basis: 25%;
+}
+header .baner ul {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  position: relative;
+  bottom: 1rem;
+  font-family: "Tomorrow", sans-serif;
+}
+header .baner ul li a {
+  text-decoration: none;
+}
+header .title-somos {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 40%;
+  font-family: "Tomorrow", sans-serif;
+  font-size: 120%;
+}
+header .title-somos h1 {
+  position: relative;
+  top: 2rem;
+}
+header .title-somos h2 {
+  display: flex;
+  justify-content: center;
+  font-family: "Tomorrow", sans-serif;
+}
+
+main .contenedor-principal {
+  margin: 0 2rem;
+}
+main .contenedor-principal .title {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+main .contenedor-principal h2 {
+  color: whitesmoke;
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 700;
+  font-size: xx-large;
+}
+main .contenedor-principal h3 {
+  color: rgb(185, 180, 180);
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 500;
+  font-size: x-large;
+}
+main .contenedor-principal div p {
+  color: whitesmoke;
+}
+main .contenedor-principal p {
+  color: whitesmoke;
+}
+main .contenedor-principal .staff {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main .contenedor-principal .staff img {
+  border-radius: 1rem;
+}
+main .contenedor-principal .items {
+  display: flex;
+  justify-content: center;
+}
+main .contenedor-principal .items-des {
+  margin: 0 15rem;
+}
+main .contenedor-principal .carousel {
+  display: flex;
+  justify-content: center;
+}
+main .contenedor-principal .carousel h3 {
+  display: flex;
+  justify-content: center;
+}
+main .contenedor-principal .carousel .carousel-inner {
+  width: 30%;
+  height: 30%;
+}
+
+footer {
+  margin: 0 2rem;
+  background-color: #0C2029;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  height: 7rem;
+}
+footer .pie {
+  display: flex;
+  align-items: center;
+}
+footer .pie h2 {
+  color: whitesmoke;
+  font-family: "Tomorrow", sans-serif;
+  font-weight: 700;
+  font-size: xx-large;
+}
+footer .pie img {
+  height: 4rem;
+  width: 4rem;
+}
+
+/*# sourceMappingURL=styles.css.map */

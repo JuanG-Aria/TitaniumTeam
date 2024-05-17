@@ -34,7 +34,8 @@ footer{
 
 @media screen and (min-width: 1050px) {
     header{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
         background-color: rgb(15, 15, 15);
         margin: 0rem 1rem;
         box-shadow: 1rem 1rem 5rem rgba(26, 210, 243, 0.459);
@@ -71,25 +72,23 @@ footer{
                 align-items: center;
             }
         }
-        .baner{
-            display: flex;
-            flex-basis: 25%;
-            ul{
-                padding: 0;
-                margin: 0;
-                width: 100%;
-                height: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: space-evenly;
-                position: relative;
-                bottom: 1rem;
+        .baner2{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            object-fit: cover;
+            .dropdown{
+                display: grid;
+            }
+            button{
+                color: whitesmoke;
+                background-color: black;
                 font-family: "Tomorrow", sans-serif;
-                li{
-                    a{
-                        text-decoration: none;
-                    }
-                }
+            }
+            a{
+                text-decoration: none;
+                color: whitesmoke;
             }
         }
         .title-somos{
@@ -164,8 +163,8 @@ footer{
                     justify-content: center;
                 }
                 .carousel-inner{
-                    width: 45%;
-                    height: 45%;
+                    width: 25%;
+                    height: 25%;
                     object-fit: cover;
                 }
             }
@@ -174,7 +173,8 @@ footer{
 }
 @media screen and (max-width: 1049px) {
     header{
-        display: flex;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
         background-color: rgb(15, 15, 15);
         margin: 0rem 1rem;
         box-shadow: 1rem 1rem 5rem rgba(26, 210, 243, 0.459);
@@ -188,19 +188,17 @@ footer{
             list-style: none;
         }
         .logo{
-            flex-basis: 25%;
-            display: flex;
+            display: grid;
             justify-content: center;
-            margin: 1rem;
             img{
-                width: 50%;
+                width: 100%;
+                object-fit: cover;
             }
         }
         .title{
-            display: flex;
+            display: inline;
             justify-content: center;
             align-items: center;
-            flex-basis: 50%;
             font-family: "Tomorrow", sans-serif;
             font-size: 120%;
             h1{
@@ -211,25 +209,24 @@ footer{
                 align-items: center;
             }
         }
-        .baner{
-            display: flex;
-            flex-basis: 25%;
-            ul{
-                padding: 0;
-                margin: 0;
-                width: 100%;
-                height: 100%;
-                display: flex;
-                align-items: center;
-                justify-content: space-evenly;
-                position: relative;
-                bottom: 1rem;
+        
+        .baner2{
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            object-fit: cover;
+            .dropdown{
+                display: grid;
+            }
+            button{
+                color: whitesmoke;
+                background-color: black;
                 font-family: "Tomorrow", sans-serif;
-                li{
-                    a{
-                        text-decoration: none;
-                    }
-                }
+            }
+            a{
+                text-decoration: none;
+                color: whitesmoke;
             }
         }
         .title-somos{

@@ -200,6 +200,9 @@ footer .pie img {
     font-family: "Tomorrow", sans-serif;
     font-size: 120%;
   }
+  header .title a {
+    text-decoration: none;
+  }
   header .title h1 {
     width: 100%;
     height: 100%;
